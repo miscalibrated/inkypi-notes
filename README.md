@@ -17,7 +17,6 @@ Other notes and resources:
 - The display flashes a bunch when refreshing, powering on/off, when updating the settings, etc. It's normal.
 - Several plugins require an API key. They go in the `.env` file located in the root of the InkyPi project directory. https://github.com/fatihak/InkyPi/blob/main/docs/api_keys.md
 - [More info on plugin development](https://github.com/fatihak/InkyPi/blob/main/docs/building_plugins.md)
-- [Pi Zero 2 W - inkypi not updating, flashing green led](https://github.com/fatihak/InkyPi/issues/159): I didn't encounter any issues discussed in this thread, noting it here just in case.
 - [AKZ Discord Server](https://discord.com/invite/qGBPVRyjCn): Developer's Discord server, if this link breaks I got it from his YouTube.
 - [WaveShare Display Driver - epd7in3e](https://github.com/waveshareteam/e-Paper/blob/master/RaspberryPi_JetsonNano/python/lib/waveshare_epd/epd7in3e.py)
 - Install command:
@@ -28,4 +27,4 @@ Other notes and resources:
 sudo bash install/install.sh -W epd7in3e
 ```
 
-- The display flashes a bunch when refreshing. Can look like it's having an issue but it's normal.
+- I had a really easy time setting this up. I used the rpi imager app to install 64-bit RPI OS Lite, configure ssh and connect to 2.4ghz wifi. From there, apt update, upgrade, apt install git, then just followed the repo's setup instructions. Other people have reported issues with the rpi zero 2 w, some relevant issues can be found here: https://github.com/fatihak/InkyPi/issues?q=is%3Aissue%20state%3Aopen%20zero%202w
