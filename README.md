@@ -23,3 +23,5 @@ Other notes and resources:
 # Once complete you will be prompted to reboot
 sudo bash install/install.sh -W epd7in3e
 ```
+
+- The display flashes a bunch when refreshing. Can look like it's having an issue but it's normal.
