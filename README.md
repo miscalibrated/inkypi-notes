@@ -28,4 +28,6 @@ sudo bash install/install.sh -W epd7in3e
 ```
 
 - I had a really easy time setting this up. I used the rpi imager app to install 64-bit RPI OS Lite, configure ssh and connect to 2.4ghz wifi. From there, apt update, upgrade, apt install git, then just followed the repo's setup instructions. Other people have reported issues with the rpi zero 2 w, including a link to them in case it's helpful: https://github.com/fatihak/InkyPi/issues?q=is%3Aissue%20state%3Aopen%20zero%202w
-- Some colors show up a lot better than others on the specific waveshare display used. You can find some related discussions in the discord and GH issues. 
+- Some colors show up a lot better than others on the specific waveshare display used. You can find some related discussions in the discord and GH issues.
+- https://networkmanager.dev/docs/api/latest/nmcli.html
+- https://www.jeffgeerling.com/blog/2023/nmcli-wifi-on-raspberry-pi-os-12-bookworm
